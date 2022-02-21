@@ -25,6 +25,19 @@ https://dev.mysql.com/downloads/file/?id=509428
 
 https://downloads.mysql.com/archives/get/p/10/file/mysql-connector-odbc-3.51.30-winx64.msi
 
+* Clonar o diretório do git.
+
+Executar o comando no console (cmd):
+```
+git clone https://github.com/Doglas-Anjos/Teste_A1.git
+```
+* Criar uma venv do python nesse diretório.
+
+* Instalar os requirements.txt na venv criada no passo anterior.
+
+```
+pip install -r requirements.txt
+```
 * Configurar no Workbench uma ``` Nova Conexão```:
 
 ![Screenshot](img_conexao_banco.png)
@@ -36,3 +49,11 @@ https://downloads.mysql.com/archives/get/p/10/file/mysql-connector-odbc-3.51.30-
 * Executar o Script em python no diretório que está o projeto:
 
 ![Screenshot](img_executando_script.png)
+
+* No Sql Query executar o comando abaixo para verificar a inserção dos dados no banco.
+
+```
+SELECT * FROM tb_dados;
+```
+
+![Screenshot](img_verificando_dados.png)
